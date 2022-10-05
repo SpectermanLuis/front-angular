@@ -87,13 +87,13 @@
       "color": "bg-dark"
     },
     {
-      "logo": "./assets/img/responsabilidad.png",
+      "logo": "./assets/img/responsabilidad02.png",
       "porcentaje": "100",
       "descripcion": "Responsabilidad",
       "color": "bg-info"
     },
     {
-      "logo": "./assets/img/cumplimiento.png",
+      "logo": "./assets/img/cumplimiento02.png",
       "porcentaje": "100",
       "descripcion": "Cumplimiento",
       "color": "bg-success"
