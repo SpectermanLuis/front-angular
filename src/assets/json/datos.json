@@ -70,9 +70,33 @@
     },
     {
       "logo": "./assets/img/icono-css.svg",
-      "porcentaje": "25",
+      "porcentaje": "50",
       "descripcion": "CSS",
       "color": "bg-primary"
+    },
+    {
+      "logo": "./assets/img/icono-boot.svg",
+      "porcentaje": "45",
+      "descripcion": "Boostrap",
+      "color": "bg-warning"
+    },
+    {
+      "logo": "./assets/img/icono-foxpro.jpg",
+      "porcentaje": "90",
+      "descripcion": "Visual FoxPro 9",
+      "color": "bg-dark"
+    },
+    {
+      "logo": "./assets/img/responsabilidad.png",
+      "porcentaje": "100",
+      "descripcion": "Responsabilidad",
+      "color": "bg-info"
+    },
+    {
+      "logo": "./assets/img/cumplimiento.png",
+      "porcentaje": "100",
+      "descripcion": "Cumplimiento",
+      "color": "bg-success"
     }
   ],
   "certificados": [
