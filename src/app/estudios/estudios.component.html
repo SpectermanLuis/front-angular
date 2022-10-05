@@ -1,0 +1,21 @@
+<!-- Fila que contiene la seccion educacion-->
+<div class="row" style="margin-top:3px;" id="estudios">
+
+    <div class="card" id="educacion">
+
+        <h1>Educacion</h1>
+
+        <div *ngFor="let estudio of estudios" class="row border row-educacion">
+            <div class="col-md-2">
+                <img class="izquierda" src="{{estudio.logo}}" style="width:60%">
+            </div>
+
+            <div class="col-md-10">
+                <p> {{estudio.inicio}} - {{estudio.fin}} {{estudio.nivel}} </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

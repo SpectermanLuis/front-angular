@@ -1,0 +1,15 @@
+<!-- Fila que contiene la seccion certificados-->
+<div class="row" style="margin-top:3px;" id="certificados">
+    <div class="card" id="certificados">
+        <h1>Certificados</h1>
+
+        <div *ngFor="let certificado of certificados" class="row">
+            <div class="col-6 col-xs-6 col-md-12">
+                <img src="{{certificado.imagen}}" class="img-responsive"
+                    style="width: 100%;height: auto;">
+            </div>
+
+        </div>
+
+    </div>
+</div>

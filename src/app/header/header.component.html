@@ -1,0 +1,85 @@
+<div class="header row d-flex justify-content-start">
+
+    <!-- Division del Header en dos columnas -->
+    <!-- Columna izquierda del header , logos de Argentina Programa -->
+    <div class="col-sm-12 col-md-6  menu-izquierda">
+
+        <nav class="navbar navbar-light justify-content-start">
+
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/APLogo.png" alt="" width="110" height="60">
+            </a>
+
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/LogosInti.png" alt="" width="180" height="60">
+            </a>
+
+        </nav>
+
+    </div>
+
+
+</div>
+
+<!-- Contenedor Fila que contiene dos columnas , seccion navegacion izquierda y sobre mi derecha -->
+
+<div class="row">
+
+    <!-- Columna izquierda conteniendo menu de navegacion vertical que permite-->
+    <!-- el acceso a las distintas secciones del portfolio-->
+    <div class="container col-md-2" style="border-radius: 15px;background-color: black;">
+
+        <div class="d-flex flex-column bd-highlight mb-3">
+
+            <div class="p-2 bd-highlight">
+                <a href="#inicio" class="w3-button w3-black w3-hover-brown w3-padding-16">Inicio</a>
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <a href="#experiencia" class="w3-button w3-black w3-hover-brown w3-padding-16">Experiencia</a>
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <a href="#educacion" class="w3-button w3-black w3-hover-teal w3-padding-16">Educacion</a>
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <a href="#habilidades" class="w3-button w3-black w3-hover-dark-grey w3-padding-16">Habilidades</a>
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <a href="#certificados" class="w3-button w3-black w3-hover-teal w3-padding-16">Certificados</a>
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <a href="#contacto" class="w3-button w3-black w3-hover-blue-grey w3-padding-16">Contacto</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Columna derecha que contiene seccion Sobre mi con foto y breve reseña -->
+    <div class="container col-md-10" id="contenedor-foto-texto"
+        style="border-radius: 15px; background-color: rgb(117, 165, 165);">
+
+        <h1 id="titulo-sobre-mi" style="margin-top:10px;">{{nombre}} {{apellido}}</h1>
+
+        <img src="{{fotoperfil}}" id="foto-perfil" class="formato-foto-perfil img-fluid"
+            alt="Foto de Perfil">
+
+        <!-- <p id="formato-texto-perfil">
+            Programador Independiente desde hace 20
+            años. Desarrollo de Sistemas a medida. Gestion integral , produccion , facturacion electronica.
+            Clientes desde pequeños comercios hasta pymes medianas y grandes. Me distinguen el
+            cumplimiento, responsabilidad y seriedad ante cada proyecto . Actualmente cursando YO PROGRAMO ,
+            para
+            adquirir la habilidad de
+            fullstack developer junior</p> -->
+
+            <p id="formato-texto-perfil">
+                {{presentacion}}</p>
+    
+    </div>
+
+</div>

@@ -1,0 +1,24 @@
+<!-- Fila que contiene seccion de Experiencia Laboral  -->
+
+<div class="row" style="margin-top:10px;" id="experiencia">
+
+    <div class="card" id="experienciaa">
+        <h1>Experiencia</h1>
+
+        <!-- Fila con experiencia laboral 1-->
+
+        <div *ngFor="let experiencia of experiencias" class="row border row-experiencia">
+            <div class="col-md-2">
+                <img class="izquierda" src="{{experiencia.logo}}" style="width:40%">
+            </div>
+
+            <div class="col-md-10">
+                <p> {{experiencia.inicio}} a {{experiencia.final}} - {{experiencia.tarea}} </p>
+            </div>
+        </div>
+
+        <!-- Fila con experiencia laboral 2-->
+
+    </div>
+
+</div>

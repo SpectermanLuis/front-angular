@@ -1,1 +1,450 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+	--fondo: #f2f2f2;
+	--color-temario: #c9c9c9;
+	--temario-active: #ffbd86;
+	--temario-active-border: #ff7300;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #e4bfbf;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./assets/img/28454-matrix.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: repeat;
+    }
+
+.header{
+	
+    height:80px;
+	background: #1d0294;
+	-webkit-border-radius: 0px 0px 40px 1px;
+    -moz-border-radius: 0px 0px 40px 1px;
+    border-radius: 0px 0px 40px 1px;
+    }
+
+    html {
+        box-sizing: border-box
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit
+    }
+    
+    /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+    
+    html {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%
+    }
+    
+    
+        
+
+
+main {
+	min-height: 1000px;
+}
+
+.card {
+	padding: 30px;
+	background: #fff;
+}
+
+
+#seccion-1 {
+	height: 500px;
+	background-color: lightskyblue;
+
+}
+
+.card-content {
+	display:flex; 
+	padding: 25px;
+	color: #000;
+}
+
+.text {
+	padding-left: 25px;
+}
+
+.imagen-seccion-1{
+	height: 200px;
+	width: 200px;
+	border-radius: 25px;
+	margin-top: 50px;
+}
+
+
+#icons-container-right
+{
+	position: relative;
+	top: 8px;
+	float: right;
+}
+
+
+#icons-container-left
+{
+	position: relative;
+	top: 8px;
+	float: left;
+}
+
+.icon
+{
+	position: relative;
+	width: 44px;
+	height: 44px;
+	margin-right: 8px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+
+.icon-facebook
+{
+	background-image: url(./assets/img/icon-facebook.png);
+}
+
+.icon-twitter
+{
+	background-image: url(./assets/img/icon-twitter.png);
+}
+
+.icon-linkedin
+{
+	background-image: url(./assets/img/icon-linkedin.png);
+}
+
+.icon-email
+{
+	background-image: url(./assets/img/icon-email.png);
+}
+
+.icon-github
+{
+	background-image: url(./assets/img/icon-github.png);
+}
+
+.icon-instagram
+{
+	background-image: url(./assets/img/icon-instagram.png);
+}
+
+
+.parrafo{
+    z-index: 1;
+    width: 800px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+}
+
+
+.parrafo img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+.w3-container{
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+div.noticia {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #449;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  div.noticia img.derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+
+  .formato-foto {
+    align-self: center;
+    margin-top:60px;
+    margin-left: 16px; 
+    margin-right: 16px; 
+    border-radius: 35%;
+    width:300px;
+    height: 70%;  
+}
+
+.formato-foto-perfil{
+    border-radius: 15%;
+    width:300px;
+    height: 300px; 
+}
+
+#foto-perfil{
+    float:left;
+    margin: 20px 10px 10px 0;
+}
+
+#titulo-sobre-mi{
+    margin-top: 10px;
+    color: #000;
+    font-size: 45px;
+    text-align: center;
+}
+
+#formato-texto-perfil{
+    margin-top:50px;
+    margin-left: 30px; 
+    font-size:xx-large ;
+    color: black
+}
+
+.row-experiencia, .row-educacion, .row-habilidades{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+
+/*::::::001-Contacto:::::::*/
+.container-contacto{
+    width: 100%;
+    margin-top: 80px;
+}
+.content-contacto{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:70px;
+    color: #434343;
+}
+.content-contacto h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.info-contacto p{
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+.info-contacto a{
+    text-decoration: none;
+    color: #434343;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.info-contacto a i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 2px solid #096aed;
+    color: #096aed;
+    margin-right: 15px;
+}
+.formulario .campo{
+    width: 100%;
+    padding: 13px 15px;
+    font-size: 16px;
+    margin-bottom: 13px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    outline: 0px;
+}
+.formulario .box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:13px;
+}
+.formulario textarea{
+    max-height: 150px;
+    min-height: 150px;
+}
+.formulario .boton{
+    border: none;
+    padding: 12px 15px;
+    font-size: 17px;
+    background: #096aed;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 300ms ease;
+    outline: 0px;
+    will-change: transform;
+}
+.formulario .boton:active{
+    transform: scale(0.95);
+}
+@media screen and (max-width:900px){
+    .content-contacto{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:20px;
+    }
+    .formulario .box{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:0px;
+    }
+    .formulario textarea{
+        max-height: 120px;
+        min-height: 120px;
+    }
+}
+/*::::::Fin-001-Contacto:::::::*/ 
+
+/* Tomados de ejemplos de w3schools.com   */
+
+.w3-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.w3-padding-40 {
+    padding-top: 20px !important;
+    padding-bottom: 40px !important
+}
+
+
+.w3-container,
+.w3-panel {
+    padding: 0.01em 16px
+}
+
+
+.w3-black {
+    color: #fff!important;
+    background-color: #000 !important
+}
+
+.w3-block {
+    display: block;
+    width: 100%
+}
+
+
+.w3-hover-blue-grey:hover {
+    color: #fff!important;
+    background-color: #607d8b !important
+}
+
+.w3-padding-16 {
+    padding-top: 16px    !important;
+    padding-bottom: 16px !important
+}
+
+    
+.w3-center {
+    text-align: center !important
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.w3-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+
+.w3-teal,
+.w3-hover-teal:hover {
+    color: #fff!important;
+    background-color: #009688 !important
+}
+
+
+
+.w3-dark-grey,
+.w3-hover-dark-grey:hover,
+.w3-dark-gray,
+.w3-hover-dark-gray:hover {
+    color: #fff!important;
+    background-color: #616161 !important
+}
+
+
+.w3-brown,
+.w3-hover-brown:hover {
+    color: #fff!important;
+    background-color: #795548 !important
+}
+
+.w3-blue-grey,
+.w3-hover-blue-grey:hover,
+.w3-blue-gray,
+.w3-hover-blue-gray:hover {
+    color: #fff!important;
+    background-color: #607d8b !important
+}
+
+.w3-margin {
+    margin: 16px !important
+}
+
+.w3-left-align {
+    text-align: left !important
+}
+
+.w3-padding-large {
+    padding: 12px 24px
+}

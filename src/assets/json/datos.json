@@ -1,0 +1,87 @@
+{
+  "nombre": "LUIS OMAR",
+  "apellido": "SPECTERMAN",
+  "fotoperfil": "./assets/img/Foto Perfil.jpg",
+  "presentacion": "Programador Independiente desde hace 20 años. Desarrollo de Sistemas a medida. Gestion integral - produccion - facturacion electronica. Clientes desde pequeños comercios hasta pymes medianas y grandes. Me distinguen el cumplimiento responsabilidad y seriedad ante cada proyecto . Actualmente cursando YO PROGRAMO para adquirir la habilidad de fullstack developer junior",
+  "trabajos": [
+    {
+      "inicio": "2022",
+      "final": "actual",
+      "tarea": "FullStack Developer Junior",
+      "logo": "./assets/img/programador_2.png"
+    },
+    {
+      "inicio": "2004",
+      "final": "actual",
+      "tarea": "Programador Independiente. Lenguaje Visual Foxpro. Desarrolo y mantenimiento de Sistemas. Comercios , pequeñas y medianas Pymes. - FullStack Developer Junior",
+      "logo": "./assets/img/programador.png"
+    },
+    {
+      "inicio": "1996",
+      "final": "2004",
+      "tarea": "Programacion Colectores de Datos. Servicio de control de inventarios y stocks",
+      "logo": "./assets/img/logosznet.jpg"
+    },
+    {
+      "inicio": "1989",
+      "final": "1996",
+      "tarea": "Programacion RPG II. Operador Sistema IBM 36 / AS-400",
+      "logo": "./assets/img/logo-sodinel.png"
+    }
+  ],
+  "educacion": [
+    {
+      "inicio": "Junio de 2022",
+      "fin": "Diciembre de 2022",
+      "logo": "./assets/img/logo_arg_prog.png",
+      "nivel": "yo programo"
+    },
+    {
+      "inicio": "Marzo de 2022",
+      "fin": "Mayo de 2022",
+      "logo": "./assets/img/logo_arg_prog.png",
+      "nivel": "se programar"
+    },
+    {
+      "inicio": "Marzo de 1989",
+      "fin": "Diciembre de 2000",
+      "logo": "./assets/img/logo-utn.jpg",
+      "nivel": "Ingenieria en Sistemas de la Informacion"
+    },
+    {
+      "inicio": "Enero de 1980",
+      "fin": "Diciembre de 1983",
+      "logo": "./assets/img/logo-uba-2.png",
+      "nivel": "Ingenieria Mecanica / Analista de Sistemas"
+    },
+    {
+      "inicio": "Marzo de 1975",
+      "fin": "Noviembre de 1979",
+      "logo": "./assets/img/logo_liceo.jpg",
+      "nivel": "Secundaria - Liceo Militar GRAL SAN MARTIN"
+    }
+  ],
+  "habilidades": [
+    {
+      "logo": "./assets/img/image-html.png",
+      "porcentaje": "50",
+      "descripcion": "Html 5",
+      "color": "bg-danger"
+    },
+    {
+      "logo": "./assets/img/icono-css.svg",
+      "porcentaje": "25",
+      "descripcion": "CSS",
+      "color": "bg-primary"
+    }
+  ],
+  "certificados": [
+    {
+      "id": 1,
+      "imagen": "./assets/img/certificado_argentina_programa_2022.jpg"
+     }
+    
+  ]
+
+
+}
