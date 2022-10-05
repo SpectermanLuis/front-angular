@@ -66,37 +66,43 @@
       "logo": "./assets/img/image-html.png",
       "porcentaje": "50",
       "descripcion": "Html 5",
-      "color": "bg-danger"
+      "color": "bg-danger",
+      "esimagenotexto":"I"
     },
     {
       "logo": "./assets/img/icono-css.svg",
       "porcentaje": "50",
       "descripcion": "CSS",
-      "color": "bg-primary"
+      "color": "bg-primary",
+      "esimagenotexto":"I"
     },
     {
       "logo": "./assets/img/icono-boot.svg",
       "porcentaje": "45",
       "descripcion": "Boostrap",
-      "color": "bg-warning"
+      "color": "bg-warning",
+      "esimagenotexto":"I"
     },
     {
       "logo": "./assets/img/icono-foxpro.jpg",
       "porcentaje": "90",
       "descripcion": "Visual FoxPro 9",
-      "color": "bg-dark"
+      "color": "bg-dark",
+      "esimagenotexto":"I"
     },
     {
-      "logo": "./assets/img/responsabilidad02.png",
+      "logo": "./assets/img/blanco.png",
       "porcentaje": "100",
-      "descripcion": "Responsabilidad",
-      "color": "bg-info"
+      "descripcion": "Responsable",
+      "color": "bg-info",
+      "esimagenotexto":"I"
     },
     {
-      "logo": "./assets/img/cumplimiento02.png",
+      "logo": "./assets/img/blanco.png",
       "porcentaje": "100",
       "descripcion": "Cumplimiento",
-      "color": "bg-success"
+      "color": "bg-success",
+      "esimagenotexto":"I"
     }
   ],
   "certificados": [
